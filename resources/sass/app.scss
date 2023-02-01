@@ -1,0 +1,82 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.form input {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+// .form button, button {
+//     padding: 10px;
+//     background-color: darksalmon;
+//     border: 1px solid darksalmon;
+//     color: #fff;
+//     cursor: pointer;
+// }
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darksalmon;
+    border: 1px solid darksalmon;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: darksalmon;
+}
+
+.list {
+    padding: 10px;
+}
+.list li {
+    list-style: square;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.list li .delete {
+    font-size: 11px;
+    color: darksalmon;
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.blue {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+button:disabled {
+    background-color:red;
+  }

@@ -28,11 +28,12 @@ Vue.component(
     "cart-list",
     require("./components/components/CartList.vue").default
 );
-Vue.component("list-item", require("./components/atom/ItemAtom.vue").default);
+// Vue.component("list-item", require("./components/atom/ItemAtom.vue").default);
 Vue.component(
     "button-atom",
     require("./components/atom/ButtonAtom.vue").default
 );
+Vue.component("modal-atom", require("./components/atom/ModalAtom.vue").default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
